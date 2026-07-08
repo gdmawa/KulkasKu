@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327077222578",
+    "project_id": "kulkasku-f909c",
+    "storage_bucket": "kulkasku-f909c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327077222578:android:9a8ba2afa08ef32626d1ab",
+        "android_client_info": {
+          "package_name": "com.example.kulkasku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKO_KtSn0gORwC_tAGPt7EFFPIkW_lVEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
