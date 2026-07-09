@@ -34,10 +34,10 @@ Aplikasi ini menerapkan teknik *denormalisasi* dan struktur hierarkis untuk memi
 ```text
 root
 └── categories (collection)
-│   └── {categoryId} (document) ➔ [nama_kategori, urutan, ikon, warna]
+│   └── {categoryId} (document) ➔ [nama_kategori, urutan]
 │
 └── users (collection)
-    └── {userId} (document) ➔ [nama, email, dibuat_pada, foto_profil, fcm_token]
+    └── {userId} (document) ➔ [nama, email, fcm_token]
         ├── makanan (sub-collection)
         │   └── {makananId} (document) ➔ [nama_item, kategori, jumlah, satuan, tgl_kedaluwarsa, barcode]
         │
